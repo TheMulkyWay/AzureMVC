@@ -15,7 +15,7 @@ namespace AzureMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page. deployed from Github";
 
             return View();
         }
