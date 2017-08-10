@@ -15,7 +15,7 @@ namespace AzureMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page. deployed from Github";
+            ViewBag.Message = "Continuos build and deploy via push to master Gtihub branch";
 
             return View();
         }
